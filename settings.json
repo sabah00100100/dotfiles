@@ -61,7 +61,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "python.defaultInterpreterPath": "~/.pyenv/shims/python",
     "python.formatting.provider": "yapf",
     "python.terminal.activateEnvironment": false,
@@ -75,5 +74,8 @@
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "git.enabled": false,
+    "workbench.commandPalette.preserveInput": true,
+    "ruby.codeCompletion": "rcodetools"
 }
